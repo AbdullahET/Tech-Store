@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign In</title>
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/all.min.css">
+  <link rel="stylesheet" href="./css/slick.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;800&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <div class="row m-0">
+    <div class="bg-org col-lg-4 d-flex justify-content-center py-5">
+      <div class="logo2 d-flex flex-column justify-content-center align-items-center">
+        <img src="./images/Logo.png" alt="" class="py-3 img1">
+        <div class="textwidth">
+          <p class="p1">Get Started</p>
+          <p class="p2">Create a new account and start shopping NOW!</p>
+        </div>
+        <img src="./images/LaptopLogin.svg" alt="" class="img2">
+      </div>
+    </div>
+    <div class="col-lg-8 bg-sign d-flex flex-column justify-content-center align-items-center">
+      <div class="sign-style text-start">
+        <p>SIGN UP</p>
+      </div>
+      <div class="">
+        <div class="input-group flex-nowrap align-items-center inp-gr">
+          <i class="fa-solid fa-envelope"></i>
+          <input class="border-0" type="email" placeholder="Email">
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+  <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+  <script src="./js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+    crossorigin="anonymous"></script>
+  <script src="./js/slick.min.js"></script>
+  <script>
+    $('.slider').slick({
+      dots: true,
+      infinite: true,
+      prevArrow: false,
+      nextArrow: false,
+      speed: 300,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            infinite: true,
+            dots: true
+          }
+        },
+        {
+          breakpoint: 890,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        },
+        {
+          breakpoint: 690,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+        // You can unslick at a given breakpoint now by adding:
+        // settings: "unslick"
+        // instead of a settings object
+      ]
+    });
+    $('.slider2').slick({
+      dots: true,
+      infinite: true,
+      prevArrow: false,
+      nextArrow: false,
+      speed: 300,
+      slidesToShow: 4,
+      slidesToScroll: 1,
+      responsive: [
+        {
+          breakpoint: 1200,
+          settings: {
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            infinite: true,
+            dots: true
+          }
+        },
+        {
+          breakpoint: 992,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 1
+          }
+        },
+        {
+          breakpoint: 767,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1
+          }
+        },
+        {
+          breakpoint: 568,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+      ]
+    });
+  </script>
+</body>
+
+</html>
